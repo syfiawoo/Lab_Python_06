@@ -18,7 +18,7 @@ class Player:
         return sum(self.scores)
     
     def average_score(self):
-        return self.total_score()/len(self.scores)
+        return self.total_score()/float(len(self.scores))
     
 torres=Player('Fernando','Torres')
 scores=[0,0,1,0,1]
